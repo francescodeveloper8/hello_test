@@ -1,0 +1,343 @@
+
+
+    body { background: linear-gradient(to bottom, #2c3e50, #3498db); 
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        max-width: 1200px; 
+         margin: 0 auto; }
+       
+    
+header { background-color: #4285f4;
+        color: #fff;
+         padding: 15px 0;}
+
+nav ul {list-style: none;
+        margin: 0;
+        padding: 0;}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Stile per i paragrafi */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Stile per gli header */
+h1, h2, h3, h4, h5, h6 {
+    color: #4285f4;
+}
+
+/* Stile per allineare le immagini */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Aggiungi stili per il background delle sezioni */
+#home,
+#about,
+#services,
+#portfolio,
+#contact {
+    padding: 50px 0;
+}
+
+#home {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#about,
+#portfolio {
+    background-color: #e6e6e6;
+}
+
+#services,
+#contact {
+    background-color: #f0f0f0;
+}
+
+/* Stile per la sezione dei servizi */
+.service {
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    color: #333;
+}
+
+.service p {
+    color: #555;
+}
+
+/* Stile per la sezione del portfolio */
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile per la sezione di contatto */
+#contact {
+    text-align: center;
+    color: #333;
+}
+
+#contact a {
+    color: #007bff;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Limita la larghezza massima delle immagini nei servizi e nel portfolio */
+.service img,
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* Stile per l'elemento h1 */
+h1 {
+    color: #4285f4;
+    font-size: 2.8em; /* Aumenta la dimensione del carattere */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Arial', sans-serif; /* Cambia il tipo di carattere */
+}
+
+/* Aggiungi uno stile per centrare l'h1 su schermi più piccoli */
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+}
+/* Stile per i paragrafi nella sezione di contatto */
+#contact p {
+    font-size: 16px; /* Modifica la dimensione del carattere */
+    color: #666; /* Cambia il colore del testo */
+    margin-bottom: 15px; /* Aggiungi margine in basso per separare dai link */
+}
+
+/* Stile per il link nella sezione di contatto */
+#contact a {
+    color: #007bff; /* Cambia il colore del link */
+    text-decoration: none; /* Rimuovi la sottolineatura dal link */
+    font-weight: bold; /* Rendi il testo del link in grassetto */
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Aggiungi sottolineatura al passaggio del mouse sul link */
+}
+/* Stile per i paragrafi nella sezione di contatto */
+#contact p {
+    font-size: 16px; /* Dimensione del carattere */
+    color: #555; /* Colore del testo */
+    margin-bottom: 15px; /* Margine inferiore */
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px; /* Aumenta il margine inferiore per una maggiore separazione */
+}
+
+
+/* Stile per il link nella sezione di contatto */
+#contact a {
+    color: #007bff; /* Colore del link */
+    text-decoration: none; /* Rimuovi la sottolineatura del link */
+    font-weight: bold; /* Grassetto per il link */
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Sottolineatura al passaggio del mouse sul link */}
+    
+ 
+    
+    
+    header {
+        background: none; /* Rimuovi lo sfondo dell'header per renderlo trasparente */
+    }
+    
+    h1 {
+        margin-top: 0; /* Rimuovi il margine superiore dell'h1 per centrare meglio il testo */
+    }
+    
+    /* Altri stili rimangono invariati */
+    #contact p {
+        text-align: center;
+    }
+    p {
+        max-width: 800px; /* O qualsiasi altra larghezza massima desiderata */
+        margin: 0 auto; /* Centra il paragrafo orizzontalmente */
+    }
+    p {
+        padding: 0 15px; /* Aggiungi spazio ai lati del paragrafo */
+    }
+    /* Stile per gli header */
+h1, h2, h3, h4, h5, h6 {
+    color: #4285f4;
+    transition: color 0.3s; /* Aggiungi una transizione per un effetto più fluido */
+}
+
+/* Aggiungi stile al passaggio del mouse */
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    color: #ffcc00; /* Cambia il colore al passaggio del mouse */
+}
+/* Stile per i paragrafi */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    font-weight: bold; /* Rendi il testo in grassetto */
+    margin-bottom: 15px;
+}
+
+/* Aggiungi uno stile specifico per i paragrafi nella sezione di contatto */
+#contact p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Aggiungi uno stile specifico per i paragrafi nel footer */
+footer p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0; /* Rimuovi il margine inferiore per il footer */
+    font-weight: bold;
+}
+/* Stile per l'immagine del servizio 1 */
+.service img {
+    max-width: 200%;
+    height: auto;
+    max-height: 300px; /* Imposta l'altezza massima desiderata */
+    display: block;
+    margin: 0 auto;
+}
+/* Stile per le immagini del portfolio */
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px; /* Imposta l'altezza massima desiderata */
+    display: block;
+    margin: 0 auto;
+}
+/* Stile per le immagini nei servizi */
+/* Stile per ingrandire le immagini al passaggio del mouse */
+img:hover {
+    transform: scale(1.2); /* Imposta il fattore di ingrandimento desiderato */
+    transition: transform 0.3s ease; /* Aggiungi una transizione per rendere l'effetto più fluido */
+}
+/* Limita la larghezza massima delle immagini */
+img {
+    max-width: 60%; /* Imposta la larghezza massima al 100% del contenitore genitore */
+    height: auto; /* Mantiene l'aspetto originale dell'immagine */
+    display: block; /* Rimuove il margine inferiore causato dagli elementi inline */
+    margin: 0 auto; /* Centra l'immagine nel suo contenitore */
+}
+
+
+/* Stile per il container delle immagini */
+.image-container {
+    display: flex; /* Abilita il layout flessibile */
+    justify-content: space-between; /* Distribuisci lo spazio tra le immagini */
+    align-items: center; /* Allinea le immagini verticalmente al centro */
+}
+
+/* Stile per le immagini all'interno del container */
+.image-container img {
+    max-width: 48%; /* Limita la larghezza massima delle immagini al 48% del container */
+    height: auto;
+}
+
+/* Aggiungi stili aggiuntivi secondo necessità */
+/* Stile per la nuova immagine */
+.new-image {
+    max-width: 100%; /* Limita la larghezza massima dell'immagine al 100% del contenitore */
+    height: auto; /* Mantiene l'aspetto proporzionato dell'immagine */
+    display: block; /* Rimuove spaziature extra attorno all'immagine */
+    margin: 0 auto; /* Centra l'immagine nel suo contenitore */
+}
+
+/* Aggiungi stili aggiuntivi secondo necessità */
+/* Stile per la foto "foto mia" */
+
+.new-image {
+    max-width: 60%; /* Limita la larghezza massima dell'immagine al 100% del contenitore */
+    height: auto; /* Mantiene l'aspetto proporzionato dell'immagine */
+    display: block; /* Rimuove spaziature extra attorno all'immagine */
+    margin: 0 auto; /* Centra l'immagine nel suo contenitore */
+}
+.new-image {
+    width: 50px; /* Imposta la larghezza desiderata */
+    height: 200px; /* Imposta l'altezza desiderata */
+    object-fit: cover; /* Mantiene le proporzioni dell'immagine */}
+    #foto9.jpg {
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .social img {
+        width: 50px; /* Imposta la larghezza desiderata */
+        height: 50px; /* Imposta l'altezza desiderata */
+        /* Aggiungi altri stili CSS desiderati, ad esempio il bordo, il margine, ecc. */
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.5em; /* Puoi regolare questo valore come preferisci */
+      }
+
+    /* Media query per dispositivi con larghezza massima di 768px */
+@media screen and (max-width: 768px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    /* Altri stili aggiuntivi secondo necessità */
+}
+
+/* Media query per dispositivi con larghezza massima di 576px */
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    /* Altri stili aggiuntivi secondo necessità */
+}
+ 

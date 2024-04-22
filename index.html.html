@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creo siti web semplici ma efficaci</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="1.ico.png" type="image/x-icon">
+
+    <!-- Aggiungi CSS per il layout responsive -->
+    <style>
+        /* Stili per il layout mobile o tablet */
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+        }
+    </style>
+
+    <!-- Aggiungi script JavaScript per il form di contatto avanzato -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Aggiungi un event listener al pulsante al caricamento del DOM
+            document.getElementById("submitBtn").addEventListener("click", function () {
+                submitForm();
+            });
+
+            function submitForm() {
+                console.log('Funzione submitForm chiamata');
+                // Resto del codice...
+            }
+        });
+
+        function submitForm() {
+            console.log('Funzione submitForm chiamata');
+            // Ottieni i valori dai campi del modulo
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Crea un oggetto FormData per inviare i dati
+            var formData = new FormData();
+            formData.append('name', name);
+            formData.append('email', email);
+            formData.append('message', message);
+
+            // Crea una nuova richiesta XMLHttpRequest
+            var xhr = new XMLHttpRequest();
+
+            // Definisci il tipo di richiesta e l'URL del server
+            xhr.open('POST', 'process-form.php', true);
+
+            // Configura l'evento di completamento della richiesta
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    // La richiesta è stata completata con successo
+                    alert('Messaggio inviato con successo!');
+                } else {
+                    // La richiesta ha incontrato un errore
+                    alert('Errore durante l\'invio del messaggio. Riprova più tardi.');
+                }
+            };
+
+            // Invia la richiesta con i dati del modulo
+            xhr.send(formData);
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Chi Sono</a></li>
+                <li><a href="#services">Servizi</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+	<h1>Benvenuto nel mio Sito</h1>
+
+    <section id="about">
+        <h2>Chi Sono</h2>
+        <p>Mi chiamo Francesco e sono un web developer full stack. Le mie competenze principali includono HTML, CSS e JavaScript. Mi dedico alla creazione di siti web semplici, accattivanti e funzionali, adatti a un vasto pubblico.</p>
+   
+        <img src="html 2.jpg" alt="html2.jpg">
+
+        
+      
+
+
+       
+
+
+        
+
+    </section>
+
+    <section id="home">
+        <div class="hero">
+            <h2>La mia soluzione innovativa per il successo online.</h2>
+            <p>Oggi, possedere un sito web è quasi essenziale per qualsiasi azienda o attività. Tuttavia, spesso ci si imbatte in siti che, sebbene esteticamente piacevoli, risultano complessi da utilizzare, costringendo il potenziale cliente ad abbandonare la ricerca e cercare altrove.</p>
+            <p>Un sito web non solo dovrebbe essere attraente dal punto di vista visivo, ma soprattutto deve garantire semplicità e funzionalità per qualsiasi utente. È cruciale creare un'esperienza utente intuitiva, in modo che i visitatori possano navigare senza sforzo e trovare facilmente le informazioni di cui hanno bisogno. La chiave è trovare un equilibrio tra estetica e usabilità, garantendo che il design accattivante non sacrifichi la facilità d'uso.</p>
+            <p>In sintesi, un sito web di successo deve essere non solo visivamente accattivante ma anche intuitivo e funzionale, adattandosi alle esigenze di qualsiasi cliente e offrendo un'esperienza positiva che invoglia i visitatori a rimanere e interagire con il contenuto.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h3>Servizi</h3>
+        <div class="service">
+            <p>Realizzo e monitoro siti web personalizzati.</p>
+            <img src="foto 3.jpg" alt="Servizio 1">
+        </div>
+        <div class="service">
+            <h4>Design Grafico</h4>
+            <p>Sviluppo design semplice ed efficace, accessibile a tutti e ottimizzato per l'uso su PC, tablet e smartphone. La mia priorità è creare un'esperienza visiva intuitiva e adattabile, garantendo che il sito sia fruibile su diverse piattaforme, rendendolo accessibile a un vasto pubblico.</p>
+            <img src="foto 6.jpg" alt="Servizio 2">
+        </div>
+        <!-- Aggiungi altri servizi -->
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Dai un'occhiata a queste due immagini: la prima rappresenta un blog essenziale che cattura appieno l'essenza dell'argomento trattato, mentre la seconda è un sito web dal design semplice ma altamente efficace.</p>
+        <div class="portfolio-item">
+            <img src="foto10.jpg" alt="Progetto 1">
+        </div>
+        <div class="portfolio-item">
+            <img src="foto11.jpg" alt="Progetto 2">
+        </div>
+        <!-- Aggiungi altri elementi del portfolio -->
+    </section>
+
+    <section id="contact">
+        <h2>Contattami</h2>
+        <p>Hai domande o vuoi discutere di un progetto? </p>
+        <div class="social"><a href="mailto:francescodeveloper8@libero.it">
+            <img src="mail.png">
+        </a>
+        <a href="https://wa.me/3899662375" target="_blank">
+            <img src="WhatsApp_icon.png.webp" alt="whatsapp">
+          </a>
+          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">
+            <img src="linkedin.png" alt="LinkedIn">
+            <a href="https://github.com/francescodeveloper8/francescodeveloper8.git" target="_blank">
+                <img src="png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png">
+          </a></div>
+        
+    </section>
+
+    <section id="map">
+        <!-- Aggiungi qui l'integrazione della mappa se necessario -->
+    </section>
+
+    <section id="testimonials">
+        <!-- Aggiungi una sezione per le testimonianze -->
+    </section>
+
+    <section id="blog">
+        <!-- Aggiungi una sezione per il blog -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 web developer full stack - Tutti i diritti riservati</p>
+    </footer>
+    
+</body>
+
+</html>
+
