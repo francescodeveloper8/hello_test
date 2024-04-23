@@ -2,7 +2,7 @@
 
     body { background: linear-gradient(to bottom, #2c3e50, #3498db); 
         color: #fff;
-        text-align: center;
+        text-align: center; 
         padding: 20px;
         margin: 0;
         max-width: 1200px; 
@@ -115,7 +115,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* Limita la larghezza massima delle immagini nei servizi e nel portfolio */
 .service img,
 .portfolio-item img {
     max-width: 100%;
@@ -132,8 +131,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Arial', sans-serif; /* Cambia il tipo di carattere */
 }
-
-/* Aggiungi uno stile per centrare l'h1 su schermi più piccoli */
 @media screen and (max-width: 768px) {
     h1 {
         text-align: center;
@@ -181,11 +178,10 @@ h1 {
     
     
     header {
-        background: none; /* Rimuovi lo sfondo dell'header per renderlo trasparente */
-    }
+        background: none; 
     
     h1 {
-        margin-top: 0; /* Rimuovi il margine superiore dell'h1 per centrare meglio il testo */
+        margin-top: 0; 
     }
     
     /* Altri stili rimangono invariati */
@@ -193,16 +189,16 @@ h1 {
         text-align: center;
     }
     p {
-        max-width: 800px; /* O qualsiasi altra larghezza massima desiderata */
-        margin: 0 auto; /* Centra il paragrafo orizzontalmente */
+        max-width: 800px; 
+        margin: 0 auto; 
     }
     p {
-        padding: 0 15px; /* Aggiungi spazio ai lati del paragrafo */
+        padding: 0 15px; 
     }
     /* Stile per gli header */
 h1, h2, h3, h4, h5, h6 {
     color: #4285f4;
-    transition: color 0.3s; /* Aggiungi una transizione per un effetto più fluido */
+    transition: color 0.3s; 
 }
 
 /* Aggiungi stile al passaggio del mouse */
@@ -277,7 +273,6 @@ img {
     height: auto;
 }
 
-/* Aggiungi stili aggiuntivi secondo necessità */
 /* Stile per la nuova immagine */
 .new-image {
     max-width: 100%; /* Limita la larghezza massima dell'immagine al 100% del contenitore */
@@ -286,8 +281,6 @@ img {
     margin: 0 auto; /* Centra l'immagine nel suo contenitore */
 }
 
-/* Aggiungi stili aggiuntivi secondo necessità */
-/* Stile per la foto "foto mia" */
 
 .new-image {
     max-width: 60%; /* Limita la larghezza massima dell'immagine al 100% del contenitore */
@@ -305,12 +298,12 @@ img {
         border-radius: 50%;
     }
     .social img {
-        width: 50px; /* Imposta la larghezza desiderata */
-        height: 50px; /* Imposta l'altezza desiderata */
-        /* Aggiungi altri stili CSS desiderati, ad esempio il bordo, il margine, ecc. */
+        width: 50px; 
+        height: 50px; 
+        
     }
     h1, h2, h3, h4, h5, h6 {
-        font-size: 1.5em; /* Puoi regolare questo valore come preferisci */
+        font-size: 1.5em; 
       }
 
     /* Media query per dispositivi con larghezza massima di 768px */
@@ -329,7 +322,6 @@ img {
         font-size: 14px;
     }
 
-    /* Altri stili aggiuntivi secondo necessità */
 }
 
 /* Media query per dispositivi con larghezza massima di 576px */
@@ -338,6 +330,6 @@ img {
         font-size: 1.2em;
     }
 
-    /* Altri stili aggiuntivi secondo necessità */
+  
 }
  
